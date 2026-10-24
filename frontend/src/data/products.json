@@ -1,0 +1,31 @@
+[
+  {
+    "productId": "jelly",
+    "name": "Homemade Jelly",
+    "tagline": "Prickly pear, spicy prickly pear, and mesquite bean.",
+    "description": "Small-batch jelly made from ruby-red Texas prickly pears and mesquite beans, each hand-picked at the perfect moment of ripeness and never mechanically harvested.",
+    "image": "/images/products/jelly.webp",
+    "price": null,
+    "availability": "Seasonal: made in small batches from each harvest.",
+    "marketOnly": false,
+    "flavors": [
+      { "name": "Prickly Pear", "note": "" },
+      { "name": "Spicy Prickly Pear", "note": "with a kick" },
+      { "name": "Mesquite Bean", "note": "" }
+    ]
+  },
+  {
+    "productId": "cinnamon-rolls",
+    "name": "Cinnamon Rolls",
+    "tagline": "Soft, glazed cinnamon rolls in two Texas flavors.",
+    "description": "Soft, glazed cinnamon rolls made by hand in two flavors from the Texas harvest: prickly pear and mesquite bean.",
+    "image": "/images/products/cinnamon-rolls.webp",
+    "price": null,
+    "availability": "Available only at Goliad Market Days, the 2nd Saturday of every month.",
+    "marketOnly": true,
+    "flavors": [
+      { "name": "Prickly Pear", "note": "" },
+      { "name": "Mesquite Bean", "note": "" }
+    ]
+  }
+]

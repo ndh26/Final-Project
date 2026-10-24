@@ -1,0 +1,19 @@
+# Local settings (the Web3Forms key is public, but keep .env files out of git by habit)
+.env
+*.env
+!.env.example
+
+# Archived backend
+archive/backend/.venv/
+**/__pycache__/
+*.pyc
+
+# Node / Vite (dist is rebuilt with `npm run build`)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Editor / OS
+.DS_Store
+*.log
+.claude/

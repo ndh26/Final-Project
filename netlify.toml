@@ -1,0 +1,10 @@
+# Netlify builds the site from the frontend/ folder and deploys the assistant function with it.
+# Set this environment variable in Netlify (Site configuration -> Environment variables):
+#   PORTKEY_API_KEY   secret: the model key for the assistant
+[build]
+  base = "frontend"
+  command = "npm run build"
+  publish = "dist"
+
+[functions]
+  directory = "netlify/functions"
